@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background-color: #e5e3e4;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+}
+
+.left img {
+  height: 100%;
+}
+
+.right {
+  width: 100%;
+}
+
+.right h1 {
+  font-size: 3.2rem;
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.right p {
+  width: 90%;
+  font-size: 20px;
+  line-height: 2.5rem;
+  margin: 30px 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 2.8rem;
+}
+
+.right span {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.right button {
+  padding: 15px 45px;
+  border: none;
+  color: #fff;
+  background: red;
+  cursor: pointer;
+  letter-spacing: 5px;
+}
+
+.right button:hover {
+  background: black;
+  transition: 500ms;
+}
